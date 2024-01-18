@@ -1,4 +1,4 @@
-# Event Registration System
+# Event Registration System v0.1
 
 This simple event registration system allows users to add and view events. The program is written in PHP and utilizes a basic HTML structure for the user interface. The events are stored in the session, allowing for simple data persistence.
 
