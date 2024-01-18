@@ -12,7 +12,7 @@ To use this program, follow these steps:
         
         ```
         
-        `git clone https://github.com/your-username/event-registration-system.git`
+        git clone https://github.com/your-username/event-registration-system.git
         
 2. **Setup XAMPP for Windows:**
     
@@ -24,7 +24,7 @@ To use this program, follow these steps:
         
         ```
         
-        `sudo apt-get update sudo apt-get install apache2`
+        sudo apt-get update sudo apt-get install apache2
         
     - Move the cloned repository into the Apache web server directory, typically `/var/www/html`.
         
@@ -36,7 +36,7 @@ To use this program, follow these steps:
         
         ```
         
-        `sudo service apache2 start`
+        sudo service apache2 start
         
 5. **Access the Application:**
     
