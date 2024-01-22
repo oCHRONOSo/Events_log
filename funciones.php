@@ -26,6 +26,16 @@ function validarEvento($titulo, $descripcion, $fecha, $ubicacion) {
     return true;
 }
 
+function leerEventos() {
+    // Verificar si existe la sesión
+    if (!isset($_SESSION['eventos'])) {
+        // La sesión no existe, por lo que no hay eventos registrados
+        return array();
+    }
+
+    // Devolver la lista de eventos de la sesión
+    return $_SESSION['eventos'];
+}
 function registrarEvento($titulo, $descripcion, $fecha, $ubicacion) {
     // Crear un nuevo evento
     $evento = array(
@@ -45,16 +55,7 @@ function registrarEvento($titulo, $descripcion, $fecha, $ubicacion) {
     return true;
 }
 
-function leerEventos() {
-    // Verificar si existe la sesión
-    if (!isset($_SESSION['eventos'])) {
-        // La sesión no existe, por lo que no hay eventos registrados
-        return array();
-    }
 
-    // Devolver la lista de eventos de la sesión
-    return $_SESSION['eventos'];
-}
 
 function mostrarEventos($eventos) {
     // Verificar si hay eventos registrados
