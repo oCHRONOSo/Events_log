@@ -12,7 +12,7 @@ To use this program, follow these steps:
         
         ```
         
-        git clone https://github.com/your-username/event-registration-system.git
+        git clone https://github.com/oCHRONOSo/Events_log.git
         
 2. **Setup XAMPP for Windows:**
     
